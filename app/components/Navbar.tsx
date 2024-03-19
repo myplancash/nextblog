@@ -11,14 +11,14 @@ const Navbar = () => {
           </h1>
         <div className="flex flex-row items-center justify-center sm:justify-evenly align-middle gap-2 px-4 text-lg font-medium text-white lg:text-4xl">
           <Link
-            className="text-white/90 bg-white p-4  hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            className="text-white/90  p-4  hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://portfolio-website-ruddy-beta.vercel.app"
             target="_blank"
           >
             <FaLaptop />
           </Link>
           <Link
-            className="text-white/90 bg-white p-4 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            className="text-white/90  p-4 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://www.linkedin.com/in/sergioestebantorres/"
             target="_blank"
           >
@@ -26,7 +26,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            className=" text-white/90 bg-white p-4 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            className=" text-white/90 p-4 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://github.com/myplancash"
             target="_blank"
           >

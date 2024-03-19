@@ -1,3 +1,4 @@
+// RootLayout.jsx
 import './globals.css'
 import Navbar from './components/Navbar'
 import MyProfilePic from './components/MyProfilePic'
@@ -16,8 +17,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark:bg-slate-800">
         <Navbar />
-        <MyProfilePic />
-        {children}
+        <main>{children}</main>
+        <footer className="flex justify-center items-center py-8">
+          {/* Your profile picture */}
+          <MyProfilePic />
+        </footer>
       </body>
     </html>
   )
